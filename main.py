@@ -6,7 +6,7 @@ import time
 
 
 
-TOKEN = os.environ['TOKEN']
+TOKEN = '5041192139:AAGlqZeqb58P-WI__MWaDVRk5XP0BzfgJWw'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
