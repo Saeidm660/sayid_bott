@@ -1,7 +1,6 @@
 import telebot 
 import os
 import telegram_send
-import url
 import time
 
 
