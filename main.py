@@ -18,6 +18,7 @@ lines = file.readlines()
 
 for i in lines:
   bot.send_photo(-332488397, i)
+  print("send" ,i)
   time.sleep(60)
 
 bot.polling()
