@@ -17,7 +17,7 @@ file = open("url.txt","r")
 lines = file.readlines()
 
 for i in lines:
-  bot.send_photo(-1001208760301, i)
+  bot.send_photo(-332488397, i)
   time.sleep(60)
 
 bot.polling()
