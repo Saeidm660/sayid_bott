@@ -11,7 +11,7 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(msg):
-  bot.reply_to(msg, 'سلام ')
+  bot.reply_to(msg, 'سلام حشری ')
 
 file = open("url.txt","r")
 lines = file.readlines()
@@ -19,6 +19,6 @@ lines = file.readlines()
 for i in lines:
   bot.send_photo(-1001208760301, i)
   print("send" ,i)
-  time.sleep(1500)
+  time.sleep(600)
 
 bot.polling()
